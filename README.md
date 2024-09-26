@@ -13,8 +13,11 @@ This repository is a collection of tested example projects using **Microchip’s
   - **Keypads**
   - **Motors** (DC, stepper, etc.)
   - **Sensors** (analog/digital)
-##  Keywords: PIC Micro PIC16F877A Proteus PICKIT2  
 
+## Keywords: 
+PIC Micro | PIC16F877A | Proteus | PICKIT2
+
+---
 
 ## Getting Started
 
@@ -31,62 +34,64 @@ Before diving into the projects, you should have a basic understanding of the fo
 - **Proteus Design Suite** – [Download Proteus](https://www.labcenter.com/downloads/)
 - **PICKIT2 Programmer** – for uploading the compiled HEX file to your microcontroller.
 
+---
+
 ## mikroC Working Environment
 
-The **mikroC** Integrated Development Environment (IDE) is designed for writing and compiling C code for various PIC microcontrollers. Here is a brief overview of its key features, with corresponding graphics for clarity:
+The **mikroC** Integrated Development Environment (IDE) is designed for writing and compiling C code for various PIC microcontrollers. Here is a brief overview of its key features:
 
-### Key Features:
-1. **Code Editor**: Write and manage your C code here.
+1. **Code Editor**: Write and manage your C code here.  
    ![mikroC Code Editor](graphics/mikroc_code_editor.png)
 
-2. **Project Manager**: Keep track of all your files and projects in the **Project Manager** window.
+2. **Project Manager**: Organize your files and projects in the **Project Manager** window.  
    ![mikroC Project Manager](graphics/mikroc_project_manager.png)
 
-3. **Compiler**: Click on the "Build" button to compile your code and generate the **HEX file**.
+3. **Compiler**: Click on the "Build" button to compile your code and generate the **HEX file**.  
    ![mikroC Compile Button](graphics/mikroc_compile_button.png)
 
-4. **Library Manager**: Access ready-to-use libraries for various peripherals, such as **LCD**, **I2C**, and **UART**, simplifying development.
+4. **Library Manager**: Access ready-to-use libraries for various peripherals such as **LCD**, **I2C**, and **UART**.  
    ![mikroC Library Manager](graphics/mikroc_library_manager.png)
 
 Once the code is written, the **mikroC compiler** converts it into a **HEX file**, which can be loaded into the PIC microcontroller using the **PICKIT2 Programmer** or simulated in **Proteus**.
 
+---
 
+## Proteus Working Environment
 
-##  Proteus Working Environment
-Proteus Design Suite is a powerful tool used to simulate circuits and embedded systems. It allows you to test your microcontroller-based designs virtually before implementing them on hardware. Here’s a quick overview of Proteus usage:
+Proteus Design Suite is a powerful tool used to simulate circuits and embedded systems. It allows you to test your microcontroller-based designs virtually before implementing them on hardware.
 
-Schematic Capture: Design circuits using the Schematic Capture interface.
+### Key Features:
+- **Schematic Capture**: Design circuits using the Schematic Capture interface.
+- **Component Library**: Select components like PIC16F877A, LCD, LEDs, etc., from the vast library.
+- **Microcontroller Simulation**: Load the HEX file generated from mikroC into Proteus for testing.
+- **Virtual Oscilloscope & Debugging Tools**: Use built-in tools to troubleshoot your circuits.
 
-Component Library: Select components like PIC16F877A, LCD, LEDs, etc., from the vast library of devices.
+By using Proteus, you can design, simulate, and test circuits before physical prototyping and visualize how each project functions in real-time.
 
-Microcontroller Simulation: Simulate your PIC16F877A by loading the HEX file generated from mikroC, allowing you to visualize the circuit's behavior.
-
-Virtual Oscilloscope & Debugging Tools: Use Proteus' built-in debugging tools, such as virtual oscilloscopes and logic analyzers, to test and troubleshoot your circuits.
-
-By integrating Proteus in this tutorial series, you’ll be able to:
-
-Design, simulate, and test circuits before physical prototyping.
-Visualize how each project functions in real-time without requiring physical hardware upfront.
-
+---
 
 ## PICKIT2 Programmer
-In each example, we will use the **PICKIT2 Programmer** to load the compiled HEX file into the PIC16F877A microcontroller. PICKIT2 is a simple and widely-used programmer by Microchip that allows seamless programming and debugging of PIC microcontrollers.
+
+In each example, the **PICKIT2 Programmer** will be used to load the compiled HEX file into the PIC16F877A microcontroller.
 
 ### How to Use PICKIT2:
-1. **Connect the PICKIT2** to the PIC16F877A using the ICSP pins (VPP, VDD, GND, PGD, PGC).
-2. Open **PICKIT2 Software** on your PC (available for download from Microchip).
+1. **Connect the PICKIT2** to the PIC16F877A using ICSP pins.
+2. Open **PICKIT2 Software**.
 3. Select the correct microcontroller (PIC16F877A).
 4. Load the HEX file generated from mikroC.
 5. Click on **Write** to upload the program to the microcontroller.
 
-Each project will include a brief section explaining the required connections and steps for programming using the PICKIT2 programmer.
+---
 
 ## Project Structure
+
 Each project folder contains:
 - **Source Code (.c)**
 - **Proteus Simulation File (.pdsprj)**
 - **Schematic Diagram**
 - **Components List**
+
+---
 
 ## Example Projects
 
@@ -95,7 +100,7 @@ Each project folder contains:
    - **Description**: Introduction to microcontroller GPIO and basic delay function.
    - **External Hardware**: LED, resistor.
    - **PICKIT2 Setup**: Connect the programmer to the ICSP pins and upload the HEX file.
-
+   
    ![LED Circuit](graphics/led_blink.gif)
 
 ### 2. **Seven-Segment Display Interfacing**
@@ -114,23 +119,26 @@ Each project folder contains:
 
    ![LCD Interfacing](graphics/lcd_display.gif)
 
+---
+
 ## Theories & References:
-Each project includes references to key theoretical concepts:
+
 - **PIC16F877A Datasheet** – [Download here](https://ww1.microchip.com/downloads/en/DeviceDoc/39582b.pdf)
 - **MikroC Reference Manual** – [MikroC Docs](https://www.mikroe.com/mikroc-pic)
 - **PICKIT2 User Guide** – [Download from Microchip](https://www.microchip.com/downloads/en/DeviceDoc/PICkit_2_User_Guide_51553F.pdf)
 
 ### Key Topics Covered:
-- **GPIO Pins** – Understanding input/output configurations
-- **Timers and Interrupts** – Generating delays, and handling real-time events
-- **Analog-to-Digital Conversion (ADC)** – Reading analog sensors
-- **PWM** – Pulse Width Modulation for motor control
+- **GPIO Pins**
+- **Timers and Interrupts**
+- **Analog-to-Digital Conversion (ADC)**
+- **PWM** for motor control
+
+---
 
 ## Graphics and Styles:
-Projects are visually represented with intuitive **circuit diagrams**, **block diagrams**, and **simulation screenshots**, allowing for easy comprehension. The code sections are well-commented and follow a structured format to help beginners and advanced users alike.
+Projects are visually represented with **circuit diagrams**, **block diagrams**, and **simulation screenshots**. Code sections are well-commented and follow a structured format to help both beginners and advanced users.
 
-Here is a typical code snippet from the LED Blinking project:
-
+Example code snippet from the LED Blinking project:
 ```c
 void main() {
   TRISB = 0x00; // Set PORTB as output
@@ -143,8 +151,11 @@ void main() {
 }
 ```
 
+---
+
 ## How to Use This Repository:
-1. Clone this repository using:
+
+1. Clone this repository:
    ```bash
    git clone https://github.com/gmostofabd/PIC-Microcontroller-Projects.git
    ```
@@ -152,17 +163,24 @@ void main() {
 3. Simulate the provided circuit diagrams using **Proteus**.
 4. Use **PICKIT2 Programmer** to load the compiled HEX file to your PIC16F877A microcontroller for hardware implementation.
 
+---
+
 ## License
 This repository is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
-##  Social Links:
-For more tutorials and content on embedded systems and microcontroller projects, you can follow my work here:
+---
 
-GitHub: gmostofabd GitHub
-YouTube: Embedded Systems & IoT Tutorials
-LinkedIn: Professional Profile
+## Social Links:
+For more tutorials and embedded systems content, follow me:
+- GitHub: [gmostofabd](https://github.com/gmostofabd)
+- YouTube: [Embedded Systems & IoT Tutorials](#)
+- LinkedIn: [Professional Profile](#)
 
-##  Popular Learning Resources:
-Microchip’s PIC Microcontrollers – C Programming Course: Udemy Course
-Embedded Systems with PIC Microcontroller: Book Reference
-Proteus Simulation for Embedded Systems: Proteus Forum
+---
+
+## Popular Learning Resources:
+
+- **Microchip’s PIC Microcontrollers – C Programming Course**: [Udemy Course](#)
+- **Embedded Systems with PIC Microcontroller**: [Book Reference](#)
+- **Proteus Simulation for Embedded Systems**: [Proteus Forum](#)
+
