@@ -13,7 +13,9 @@ This repository is a collection of tested example projects using **Microchip’s
   - **Keypads**
   - **Motors** (DC, stepper, etc.)
   - **Sensors** (analog/digital)
-  
+##  Keywords: PIC Micro PIC16F877A Proteus PICKIT2  
+
+
 ## Getting Started
 
 ### Minimum Knowledge Requirements:
@@ -47,6 +49,25 @@ The **mikroC** Integrated Development Environment (IDE) is designed for writing 
    ![mikroC Library Manager](graphics/mikroc_library_manager.png)
 
 Once the code is written, the **mikroC compiler** converts it into a **HEX file**, which can be loaded into the PIC microcontroller using the **PICKIT2 Programmer** or simulated in **Proteus**.
+
+
+
+##  Proteus Working Environment
+Proteus Design Suite is a powerful tool used to simulate circuits and embedded systems. It allows you to test your microcontroller-based designs virtually before implementing them on hardware. Here’s a quick overview of Proteus usage:
+
+Schematic Capture: Design circuits using the Schematic Capture interface.
+
+Component Library: Select components like PIC16F877A, LCD, LEDs, etc., from the vast library of devices.
+
+Microcontroller Simulation: Simulate your PIC16F877A by loading the HEX file generated from mikroC, allowing you to visualize the circuit's behavior.
+
+Virtual Oscilloscope & Debugging Tools: Use Proteus' built-in debugging tools, such as virtual oscilloscopes and logic analyzers, to test and troubleshoot your circuits.
+
+By integrating Proteus in this tutorial series, you’ll be able to:
+
+Design, simulate, and test circuits before physical prototyping.
+Visualize how each project functions in real-time without requiring physical hardware upfront.
+
 
 ## PICKIT2 Programmer
 In each example, we will use the **PICKIT2 Programmer** to load the compiled HEX file into the PIC16F877A microcontroller. PICKIT2 is a simple and widely-used programmer by Microchip that allows seamless programming and debugging of PIC microcontrollers.
@@ -134,6 +155,14 @@ void main() {
 ## License
 This repository is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
----
+##  Social Links:
+For more tutorials and content on embedded systems and microcontroller projects, you can follow my work here:
 
-This should give a concise explanation of the **mikroC working environment** with corresponding visuals. Let me know if you'd like any other changes!
+GitHub: gmostofabd GitHub
+YouTube: Embedded Systems & IoT Tutorials
+LinkedIn: Professional Profile
+
+##  Popular Learning Resources:
+Microchip’s PIC Microcontrollers – C Programming Course: Udemy Course
+Embedded Systems with PIC Microcontroller: Book Reference
+Proteus Simulation for Embedded Systems: Proteus Forum
