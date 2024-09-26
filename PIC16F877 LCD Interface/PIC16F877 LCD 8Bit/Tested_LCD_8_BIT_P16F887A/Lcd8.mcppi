@@ -1,0 +1,55 @@
+[DEVICE]
+Name=P16F887
+Clock=8000000
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=Lcd8.c
+[USE_EEPROM]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=2000
+[FILES]
+Count=1
+File0=Lcd8.c
+[BINARIES]
+Count=1
+File0=__Lib_Lcd8.mcl
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+Count=1
+File0=Lcd8.c
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=4
+Path0=C:\Program Files\Mikroelektronika\mikroC PRO for PIC\defs\
+Path1=C:\Program Files\Mikroelektronika\mikroC PRO for PIC\Uses\P16\
+Path2=F:\C Codes 2013\Tested Codes\Tested_LCD_8_BIT_P16F887A\
+Path3=C:\Documents and Settings\Golam Mostofa\Desktop\Crash Trial\lcd_8_bit_examples\Lcd 8-bit Examples\mikroC PRO for PIC\16F887\
+[HEADER_PATH]
+Count=0
+[HEADERS]
+Count=0
+[PLDS]
+Count=0
+[Useses]
+Count=1
+File0=Lcd_Constants
+[EXPANDED NODES]
+Node1=Sources
+Node2=Binaries
+Node3=Output Files
+Count=3

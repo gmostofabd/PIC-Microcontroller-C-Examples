@@ -1,0 +1,20 @@
+main
+	__CC2DW
+		____DoICP
+	Lcd8_Init
+		Delay_5500us
+		Lcd8_Cmd
+			Delay_1us
+			Delay_5500us
+			Delay_50us
+	Lcd8_Cmd
+		Delay_1us
+		Delay_5500us
+		Delay_50us
+	Lcd8_Out
+		Lcd8_Chr
+			Lcd8_Cmd
+				Delay_1us
+				Delay_5500us
+				Delay_50us
+	Move_Delay

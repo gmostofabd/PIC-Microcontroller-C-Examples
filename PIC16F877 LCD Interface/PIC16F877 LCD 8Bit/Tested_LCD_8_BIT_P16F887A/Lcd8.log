@@ -1,0 +1,15 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F887 -DL -O11111114 -fo8 -N"F:\C Codes 2013\Tested Codes\Tested_LCD_8_BIT_P16F887A\Lcd8.mcppi" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"F:\C Codes 2013\Tested Codes\Tested_LCD_8_BIT_P16F887A\" -SP"C:\Documents and Settings\Golam Mostofa\Desktop\Crash Trial\lcd_8_bit_examples\Lcd 8-bit Examples\mikroC PRO for PIC\16F887\" "Lcd8.c" "__Lib_Lcd8.mcl" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_LcdConsts.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Documents and Settings\Golam Mostofa\Desktop\Crash Trial\lcd_8_bit_examples\Lcd 8-bit Examples\mikroC PRO for PIC\16F887'	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 123	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	126	All files Preprocessed in 63 ms	 
+diagnostics: 0	122	Compilation Started	Lcd8.c
+diagnostics: 97	123	Compiled Successfully	Lcd8.c
+diagnostics: 0	127	All files Compiled in 125 ms	 
+hint: 0	1144	Used RAM (bytes): 55 (16%)  Free RAM (bytes): 297 (84%)	Used RAM (bytes): 55 (16%)  Free RAM (bytes): 297 (84%)
+hint: 0	1144	Used ROM (program words): 419 (5%)  Free ROM (program words): 7773 (95%)	Used ROM (program words): 419 (5%)  Free ROM (program words): 7773 (95%)
+diagnostics: 0	125	Project Linked Successfully	Lcd8.mcppi
+diagnostics: 0	128	Linked in 234 ms	 
+diagnostics: 0	129	Project 'Lcd8.mcppi' completed: 781 ms	 
+diagnostics: 0	103	Finished successfully: 18 May 2013, 03:20:06	Lcd8.mcppi

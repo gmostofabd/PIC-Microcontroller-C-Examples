@@ -1,0 +1,27 @@
+main
+	__CC2DW
+		____DoICP
+	InitLCD
+		ToggleEpinOfLCD
+		WriteCommandToLCD
+			ToggleEpinOfLCD
+	welcome_msg
+		ClearLCDScreen
+			WriteCommandToLCD
+				ToggleEpinOfLCD
+		WriteLCDLine1
+			GotoYXPositionOnLCD
+				WriteCommandToLCD
+					ToggleEpinOfLCD
+			WriteStringToLCD
+				____DoICP
+				WriteDataToLCD
+					ToggleEpinOfLCD
+		WriteLCDLine2
+			GotoYXPositionOnLCD
+				WriteCommandToLCD
+					ToggleEpinOfLCD
+			WriteStringToLCD
+				____DoICP
+				WriteDataToLCD
+					ToggleEpinOfLCD
