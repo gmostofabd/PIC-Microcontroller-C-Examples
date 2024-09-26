@@ -1,0 +1,19 @@
+main
+	ioInit
+	dataRead
+		EEPROM_Read
+	gettemp
+		Ow_Reset
+			Delay_500us
+			Delay_80us
+		Ow_Write
+			Delay_80us
+			Delay_50us
+		Ow_Read
+			Delay_1us
+			Delay_50us
+	ssdOut
+		Div_16X16_U
+	tempSet
+		EEPROM_Write
+interrupt
