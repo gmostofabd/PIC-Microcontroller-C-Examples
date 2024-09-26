@@ -1,0 +1,6 @@
+[PROJECTS]
+Count=2
+Project0=..\INTRC_IO\16F887_INTRC_IO.mcppi
+Project1=RE3.mcppi
+[ActiveProject]
+Index=1
