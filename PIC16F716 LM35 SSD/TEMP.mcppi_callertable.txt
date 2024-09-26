@@ -1,0 +1,25 @@
+main
+	__CC2DW
+		____DoICP
+	get_lm35
+	SSD
+		Mul_8X8_U
+		int2double
+			NRM3232
+				RES032
+				SETFUN32
+				FIXSIGN32
+		Mul_32x32_FP
+			RES032
+			SETFOV32
+			SETFUN32
+		Div_32x32_FP
+			SETFDZ32
+			RES032
+			SETFOV32
+			SETFUN32
+		double2word
+			SETIOV3224
+		Div_16X16_U
+interrupt
+	get_lm35
